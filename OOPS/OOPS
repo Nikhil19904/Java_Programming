@@ -1,0 +1,28 @@
+“Encapsulation is the process of wrapping data and methods into a single unit and restricting direct access 
+ to the data using access modifiers.
+
+ Key idea : Data hiding
+
+ 👉 Encapsulation = Data + Methods bundled together + Controlled access
+
+Instead of letting anyone directly change your data, you protect it and allow access only through defined methods.
+
+👉 Think: “I decide how my data is used”
+
+
+⚡ Easy Analogy (Yaad rakhne ke liye)
+
+👉 Capsule (medicine) 💊
+
+Bahar cover hota hai (protection)
+Andar medicine hoti hai (data)
+
+👉 Tum direct medicine ko touch nahi karte
+👉 Tum sirf capsule lete ho
+
+✔ Same → data hidden + controlled access
+
+
+# Inheritance :
+
+“Inheritance is a mechanism in which one class acquires properties and behavior of another class, allowing code reuse and hierarchy creation.”
