@@ -125,6 +125,54 @@ public class LinkedList2 {
         return -1;
     }
 
+    // reverse the linkedlist
+    public void reverse() {
+        Node prev = null;
+        Node curr = head;
+        Node next;
+
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        head = prev;
+    }
+
+    // middle of the linkedlist
+    public static Node middle(Node head) {
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+    }
+
+    // cycle detection
+    public static boolean hasCycle(Node head) {
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                return true;
+            }
+
+            return false;
+        }
+    }
+
     public static void main(String[] args) {
         LinkedList2 list = new LinkedList2();
 
@@ -133,11 +181,17 @@ public class LinkedList2 {
         list.addFirst(3);
         list.addLast(4);
         list.addLast(5);
+        list.addLast(6);
 
         list.print();
 
         // System.out.println(list.iterativeSearch(4));
         System.out.println("The size of the List is : " + list.size());
+
+        list.reverse();
+        list.print();
+
+        // System.out.println(hasCycle(head));
 
     }
 }
