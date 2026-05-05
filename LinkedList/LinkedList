@@ -1,0 +1,98 @@
+// palindrome of linkedlist
+
+// approach :
+
+find mid node
+reverse the 2nd half
+compare both the left & right half
+if both are equal - palindrome
+otherwise-not
+
+// merge 2 sorted list
+
+traverse the both lists from head of both
+compare the nodes of both list by using 2 pointers
+if value1 < value2 - add it to list
+update the curr of list to forward
+
+// remove nth node from end
+
+find the l-nth node from backward 
+and delete the l-n+1 node
+
+// odd-even list
+
+isme saare odd find kro aur phir saare even 
+and phir dono ko connect kr do bss
+
+odd=even.next
+even=odd next
+
+// Sort the list 
+
+phle linkedlist ko arraylist m convert krenge aur arraylist ko sort krenge
+phir uske baad arraylist ko linkedlist m convert krenge
+
+// Reorder List
+
+find the mid node
+reverse the 2nd half
+and after that...merge the both halves
+
+// linkedlist cycle - 2 (starting point of the cycle)
+
+list ko traverse kro from both slow(+1) and fast(+2)
+if cycle exist then...slow ko reset krke head pe le jao
+aru phir dono ko traverse kro slow(+1) and fast(+1)
+jaha p dono mil jaye..mtlb vhi staring point h 
+
+// Length of the cycle
+
+ek variable initialize kro length ko start se
+
+
+// maximum twin sum of linkedlist : 
+
+find midddle
+then reverse
+compare the pairs
+
+// intersection of 2 list : 
+
+find the difference
+move longer list by diff(k)
+
+then move slow and fast together
+where tha values match--->intersection point occur, otherwise not
+
+// add 2 numbers in list :
+
+reverse the list --- > then ad both ---> then reverse again
+
+// find the starting point of the loop 
+
+traverse list by slow and fast
+when
+
+// reorder the list 
+
+find the mid
+reverse 2nd half
+then combine alternatively
+
+// sort the list
+
+convert the list into arraylist 
+then sort the arratlist and reconvert into linkedlist
+
+//remove loop in linkedlist 
+
+find the starting point loop
+make the tail of loop .next
+
+
+
+
+
+
+

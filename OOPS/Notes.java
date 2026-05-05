@@ -29,3 +29,11 @@
 
 // default value : integer - 0, floating poins - 0.0, booleans - false ,
 // references - null
+
+// Local Variables :-
+// Declared inside a method, constructor, or block
+// Accessible only within that method/block
+// Created when the method starts, destroyed when it ends
+// Must be initialized before use
+// they are temporary and live only as long as the method is on the stack (in
+// other words, the method hs not reached the closing curly braces)
