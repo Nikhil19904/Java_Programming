@@ -1,5 +1,5 @@
 practice daily
-starts with easy problem
+starts with easy problem(for begineer)
 break big problem into smaller sub problem
 think firstly about brute->best/optimized(use bramashtra for optimization if needed)
 watch editorials/solutions after stuck for long time(or not stuck bcz of better knowledge)
@@ -14,6 +14,8 @@ make the dry run of every problem after do it
 also think about edges cases(selfly)--> means where the code breaks/wrong
 time and space complexity of every problem
 constraints ko bhi dekho every problem ke bcz isse kafi idea lagta h data structure ka...aur time comp. ka
-pattern recognition after every problme (and note it down)
+pattern recognition after/during every problme (and note it down)
+Explain out loud--> like in interview (“main yahan hashmap use kar raha because lookup O(1)”)
+
 
 
